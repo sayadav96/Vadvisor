@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>New Contact Us Submission</title>
+  </head>
+
+  <body
+    style="
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+      padding: 20px;
+    "
+  >
+    <div
+      style="
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+      "
+    >
+      <!-- Company Logo -->
+      <div style="text-align: center; margin-bottom: 20px">
+        <img
+          src="https://vadvisoroverseas.com/mail/logo.png"
+          alt="VAdvisor Logo"
+          style="max-width: 150px"
+        />
+      </div>
+
+      <!-- Email Header -->
+      <h2 style="text-align: center; color: #f4a53c">
+        New Contact Us Submission
+      </h2>
+      <p style="text-align: center">
+        You’ve received a new inquiry from <strong>{{ yourName }}</strong>.
+      </p>
+
+      <hr style="border: 0; border-top: 1px solid #ccc; margin: 20px 0" />
+
+      <!-- Contact Details -->
+      <h3 style="color: #333">Contact Information:</h3>
+      <p><strong>Name:</strong> {{ yourName }}</p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:{{ yourEmail }}" style="color: #f4a53c"
+          >{{ yourEmail }}</a
+        >
+      </p>
+      <p><strong>Contact Number:</strong> {{ yourNumber }}</p>
+
+      <!-- Study Preferences -->
+      <h3 style="color: #333; margin-top: 20px">Study Preferences:</h3>
+      <p><strong>Study Destination:</strong> {{ studyDestination }}</p>
+      <p><strong>Intake Year:</strong> {{ intakeYear }}</p>
+
+      <br />
+
+      <!-- Signature -->
+      <p>Regards,<br /><strong>{{ yourName }}</strong></p>
+
+      <!-- Footer -->
+      <div
+        style="
+          border-top: 1px solid #ccc;
+          padding-top: 10px;
+          text-align: center;
+          margin-top: 20px;
+        "
+      >
+        <p style="font-size: 12px; color: #888">
+          VAdvisor - Empowering Your Global Education Journey
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1263 @@
+{
+  "uk": {
+    "logos": [
+      { "path": "/images/countries/uk/logos/imperial-college.webp" },
+      { "path": "/images/countries/uk/logos/kings.webp" },
+      { "path": "/images/countries/uk/logos/lse.webp" },
+      { "path": "/images/countries/uk/logos/manchester.webp" },
+      { "path": "/images/countries/uk/logos/university-college-london.webp" },
+      { "path": "/images/countries/uk/logos/university-of-bristol.webp" },
+      { "path": "/images/countries/uk/logos/university-of-edinburgh.webp" },
+      { "path": "/images/countries/uk/logos/warwick.webp" }
+    ],
+    "heroSection": {
+      "title": ["Study in ", "United Kingdom"],
+      "desc": "The UK offers top universities, diverse courses, and shorter degrees. Students benefit from part-time work, cultural experiences, and strong support. The Graduate Visa allows up to two years of work, making it great for academic and career growth."
+    },
+    "statsSection": [
+      {
+        "num": "150+",
+        "text": "Universities"
+      },
+      {
+        "num": "£12k - £37k",
+        "text": "Annual tuition fees"
+      },
+      {
+        "num": "600K",
+        "text": "International students"
+      },
+      {
+        "num": "2 Years",
+        "text": "Graduate Immigration Visa"
+      }
+    ],
+    "flagSection": {
+      "title": ["Education in ", "United Kingdom"],
+      "desc": "The UK is a top destination for ambitious students, offering world-class education and globally recognized degrees. With a multicultural environment, vibrant campus life, and industry-focused programs, it connects you to real-world opportunities and career success. Choose the UK as your launchpad for the future.",
+      "flagImgPath": "/images/countries/uk/flag-img.webp",
+      "dropdownItems": [
+        {
+          "title": "World-Class Universities",
+          "text": "The UK is home to some of the world’s top universities, including the University of Oxford, University of Cambridge, Imperial College London, and London School of Economics, known for their high academic standards and rigorous research."
+        },
+        {
+          "title": "Diverse Course Options",
+          "text": "UK universities offer a wide range of programs, from traditional academic fields to specialized courses in emerging industries like AI, environmental science, and digital marketing."
+        },
+        {
+          "title": "Cultural and Historical Richness",
+          "text": "The UK offers a unique cultural experience with its rich history, diverse society, and vibrant student life. You can explore everything from ancient castles to modern art galleries, and enjoy a multicultural atmosphere."
+        },
+        {
+          "title": "Shorter Degree Programs",
+          "text": "Undergraduate degrees in the UK typically take three years to complete (four in Scotland), and Master’s programs are often one year long, allowing students to save time and money compared to other countries."
+        },
+        {
+          "title": "Work Opportunities During Study",
+          "text": "International students can work part-time during their studies (up to 20 hours per week during term time) and full-time during holidays, providing a chance to earn and gain practical experience."
+        },
+        {
+          "title": "Post-Graduation Work Visa",
+          "text": "The UK offers a Graduate Visa, allowing international students to stay for up to two years after completing their degree to work or look for work in the country, and up to three years for PhD graduates."
+        },
+        {
+          "title": "High Standard of Living",
+          "text": "The UK is known for its high quality of life, with excellent healthcare, transportation, and social services. Students enjoy a vibrant lifestyle with access to global industries and opportunities."
+        },
+        {
+          "title": "Support for International Students",
+          "text": "UK universities offer excellent student support services, including visa assistance, academic counseling, career advice, and social integration programs to help international students settle in."
+        },
+        {
+          "title": "Strong International Network",
+          "text": "Studying in the UK opens doors to a global alumni network, which can be valuable for career networking and building professional connections across various fields."
+        },
+        {
+          "title": "English Language Proficiency",
+          "text": "The UK provides an immersive English-speaking environment, helping students enhance their language skills, which is beneficial for future academic and career prospects worldwide."
+        }
+      ]
+    },
+    "universitiesSection": {
+      "title": ["Top Russel Universities in", "United Kingdom"],
+      "desc": "The Russell Group’s 24 universities are research-focused institutions driving global progress. They offer top-tier education, exceptional research, and strong ties to business and the public sector, shaping the UK’s future.",
+      "topUnis": [
+        {
+          "name": "Imperial College London",
+          "location": "London",
+          "path": "/images/countries/uk/carousel/imperial-college-london.webp"
+        },
+        {
+          "name": "University College London",
+          "location": "London",
+          "path": "/images/countries/uk/carousel/university-college-london.webp"
+        },
+        {
+          "name": "London School of Economics",
+          "location": "London",
+          "path": "/images/countries/uk/carousel/lse.webp"
+        },
+        {
+          "name": "University of Edinburgh",
+          "location": "Edinburgh",
+          "path": "/images/countries/uk/carousel/university-of-edinburgh.webp"
+        },
+        {
+          "name": "King’s College London",
+          "location": "London",
+          "path": "/images/countries/uk/carousel/kings-college.webp"
+        },
+        {
+          "name": "University of Manchester",
+          "location": "Manchester",
+          "path": "/images/countries/uk/carousel/university-of-manchester.webp"
+        },
+        {
+          "name": "University of Bristol",
+          "location": "Bristol",
+          "path": "/images/countries/uk/carousel/university-of-bristol.webp"
+        },
+        {
+          "name": "University of Warwick",
+          "location": "Coventry",
+          "path": "/images/countries/uk/carousel/warwick.webp"
+        }
+      ]
+    },
+    "costsSection": {
+      "title": ["Cost of Studying ", "In United Kingdom"],
+      "desc": "UK tuition fees vary by course and university, with humanities and arts being cheaper, and medicine, engineering, and MBAs costing more. ",
+      "tuitionFees": [
+        {
+          "title": "Foundation Program",
+          "amt": "£ 10,000 - 20,000"
+        },
+        {
+          "title": "Bachelor's",
+          "amt": "£ 15,000 - 35,000"
+        },
+        {
+          "title": "Master's",
+          "amt": "£ 15,000 - 40,000"
+        }
+      ],
+      "livingExpenses": [
+        {
+          "title": "On Campus",
+          "amt": "£ 10,000 - 20,000"
+        },
+        {
+          "title": "Off Campus",
+          "amt": "£ 15,000 - 35,000"
+        }
+      ]
+    },
+    "topCoursesSection": {
+      "title": ["Top Courses in ", "United Kingdom "],
+      "desc": "The U.K. is a top study destination, offering quality education and global career opportunities. A U.K. degree is internationally recognized, helping Indian students unlock their full potential.",
+      "topCourses": [
+        {
+          "title": "Engineering and Technology"
+        },
+        {
+          "title": "Business and Management"
+        },
+        {
+          "title": "Computer Science & IT"
+        },
+        {
+          "title": "Health & Medicine"
+        },
+        {
+          "title": "Law & Humanities"
+        },
+        {
+          "title": "Creative Arts & Design"
+        }
+      ]
+    },
+    "scholarshipsSection": {
+      "title": ["Top Scholarships in UK for", "Indian Students"],
+      "desc": "Unlock financial support for your education journey. Apply for various scholarships and awards!",
+      "scholarships": [
+        {
+          "title": "Chevening Scholarships"
+        },
+        {
+          "title": "Commonwealth Scholarships"
+        },
+        {
+          "title": "Great Scholarships"
+        },
+        {
+          "title": "Rhodes Scholarships"
+        },
+        {
+          "title": "University-Specific Scholarships"
+        },
+        {
+          "title": "British Council Scholarships"
+        },
+        {
+          "title": "Euraxess UK"
+        },
+        {
+          "title": "Gates Cambridge Scholarships"
+        }
+      ]
+    }
+  },
+  "dubai": {
+    "logos": [
+      { "path": "/images/countries/dubai/logos/aud.webp" },
+      { "path": "/images/countries/dubai/logos/heriot-watt.webp" },
+      { "path": "/images/countries/dubai/logos/uowd.webp" },
+      { "path": "/images/countries/dubai/logos/uod.webp" },
+      { "path": "/images/countries/dubai/logos/zayed.webp" },
+      { "path": "/images/countries/dubai/logos/middlesex.webp" },
+      { "path": "/images/countries/dubai/logos/canadian.webp" },
+      { "path": "/images/countries/dubai/logos/british.webp" },
+      { "path": "/images/countries/dubai/logos/didi.webp" },
+      { "path": "/images/countries/dubai/logos/sp-jain.webp" }
+    ],
+    "heroSection": {
+      "title": ["Study in ", "Dubai"],
+      "desc": "Dubai provides world-class education with top universities and modern facilities. Its growing economy offers abundant career opportunities across various industries. With access to prestigious academic programs and a vibrant job market, Dubai is an excellent destination for academic and professional growth."
+    },
+    "statsSection": [
+      {
+        "num": "27+",
+        "text": "Universities"
+      },
+      {
+        "num": "AED 37k - 85k",
+        "text": "Annual tuition fees"
+      },
+      {
+        "num": "77K+",
+        "text": "International students"
+      },
+      {
+        "num": "1-2 Years",
+        "text": "Post - Study Work Visa"
+      }
+    ],
+    "flagSection": {
+      "title": ["Education in ", "Dubai"],
+      "desc": "Dubai offers a diverse and high-quality education system, with options across world-renowned universities, specialized institutions, and branch campuses of global universities. Known for its excellence in fields like business, technology, engineering, tourism, and the arts, Dubai provides a unique blend of academic rigor and practical learning opportunities.",
+      "flagImgPath": "/images/countries/dubai/flag-img.webp",
+      "dropdownItems": [
+        {
+          "title": "Post-Graduation Work Visa",
+          "text": "Stay-back options allow graduates to work in Dubai for up to 1–2 years, depending on the field and qualifications."
+        },
+        {
+          "title": "High Standard of Living",
+          "text": "Dubai offers a high standard of living with modern infrastructure, luxury amenities, healthcare, and a safe environment."
+        },
+        {
+          "title": "Support for International Students",
+          "text": "Dubai universities provide extensive support services, including academic counseling, career guidance, and help with accommodation."
+        },
+        {
+          "title": "Strong International Network",
+          "text": "Studying in Dubai connects you to a global network, with access to professionals, industries, and international events."
+        },
+        {
+          "title": "English Language Proficiency",
+          "text": "English is widely spoken, and many programs are taught in English, making it easier for international students to excel."
+        },
+        {
+          "title": "World-Class Universities",
+          "text": "Dubai is home to prestigious international universities offering globally recognized degrees in various fields."
+        },
+        {
+          "title": "Diverse Course Options",
+          "text": "Dubai offers a wide range of courses in business, engineering, IT, hospitality, healthcare, and more, catering to diverse student interests."
+        },
+        {
+          "title": "Cultural and Economic Hub",
+          "text": "Dubai is a dynamic blend of cultures and modernity, offering students the chance to experience an exciting city with global business opportunities."
+        },
+        {
+          "title": "Short Degree Programs",
+          "text": "Dubai offers shorter duration degree programs, allowing students to enter the workforce quicker than in many other countries."
+        },
+        {
+          "title": "Work Opportunities During Study",
+          "text": "International students can work part-time during their studies, gaining valuable experience in Dubai’s fast-growing industries."
+        }
+      ]
+    },
+    "universitiesSection": {
+      "title": ["Popular Universities in", "Dubai"],
+      "desc": "Dubai hosts top universities offering quality education, diverse programs, and strong industry connections, making it a prime destination for students seeking global recognition and career opportunities.",
+      "topUnis": [
+        {
+          "name": "American University",
+          "location": "Dubai",
+          "path": "/images/countries/dubai/carousel/aud.webp"
+        },
+        {
+          "name": "University of Wollongong",
+          "location": "Dubai",
+          "path": "/images/countries/dubai/carousel/uowd.webp"
+        },
+        {
+          "name": "Heriot-Watt University",
+          "location": "Dubai",
+          "path": "/images/countries/dubai/carousel/heriot-watt.webp"
+        },
+        {
+          "name": "University of Dubai",
+          "location": "Dubai",
+          "path": "/images/countries/dubai/carousel/uod.webp"
+        },
+        {
+          "name": "Zayed University",
+          "location": "Dubai",
+          "path": "/images/countries/dubai/carousel/zayed.webp"
+        },
+        {
+          "name": "Middlesex University",
+          "location": "Dubai",
+          "path": "/images/countries/dubai/carousel/middlesex.webp"
+        },
+        {
+          "name": "Canadian University",
+          "location": "Dubai",
+          "path": "/images/countries/dubai/carousel/canadian.webp"
+        },
+        {
+          "name": "The British University",
+          "location": "Dubai",
+          "path": "/images/countries/dubai/carousel/british.webp"
+        },
+        {
+          "name": "Dubai Institute of Design and Innovation",
+          "location": "Dubai",
+          "path": "/images/countries/dubai/carousel/didi.webp"
+        },
+        {
+          "name": "SP Jain School of Global Management",
+          "location": "Dubai",
+          "path": "/images/countries/dubai/carousel/sp-jain.webp"
+        }
+      ]
+    },
+    "costsSection": {
+      "title": ["Cost of Studying ", "In Dubai"],
+      "desc": "Tuition fees in the Dubai vary depending on the course and university, with humanities and arts generally being more affordable, while medicine, engineering, and MBAs tend to be more expensive. Careful planning is crucial.",
+      "tuitionFees": [
+        {
+          "title": "Bachelor's",
+          "amt": "AED 37,000 – 1,15,000"
+        },
+        {
+          "title": "Master's",
+          "amt": "AED 48,000 – 1,35,000"
+        }
+      ],
+      "livingExpenses": [
+        {
+          "title": "On Campus",
+          "amt": "AED 3,000 - 5,000"
+        },
+        {
+          "title": "Off Campus",
+          "amt": "AED 1,200 – 3,500"
+        }
+      ]
+    },
+    "topCoursesSection": {
+      "title": ["Top Courses in ", "Dubai"],
+      "desc": "Dubai is a leading study destination, offering high-quality education and global career opportunities. A degree from Dubai is internationally recognized, helping students unlock their full potential and excel in their careers.",
+      "topCourses": [
+        {
+          "title": "Business and Management"
+        },
+        {
+          "title": "Engineering and Technology"
+        },
+        {
+          "title": "Hospitality and Tourism"
+        },
+        {
+          "title": "Healthcare and Medicine"
+        },
+        {
+          "title": "Computer Science and IT"
+        },
+        {
+          "title": "Law"
+        },
+        {
+          "title": "Arts and Design"
+        },
+        {
+          "title": "Aviation and Aerospace"
+        },
+        {
+          "title": "Media and Communication"
+        },
+        {
+          "title": "Education and Social Sciences"
+        }
+      ]
+    },
+    "scholarshipsSection": {
+      "title": ["Top Scholarships in Dubai for", "Indian Students"],
+      "desc": "Unlock financial support for your education journey. Apply for various scholarships and awards!",
+      "scholarships": [
+        {
+          "title": "Sheikh Mohammed bin Rashid Al Maktoum Foundation Scholarships"
+        },
+        {
+          "title": "Al Qasimi Foundation Scholarships"
+        },
+        {
+          "title": "Dubai Government Scholarships"
+        },
+        {
+          "title": "University of Dubai Scholarships"
+        },
+        {
+          "title": "American University in Dubai (AUD) Scholarships"
+        },
+        {
+          "title": "Zayed University Scholarships"
+        },
+        {
+          "title": "Khalifa University Scholarships"
+        },
+        {
+          "title": "University of Wollongong in Dubai Scholarships"
+        },
+        {
+          "title": "Heriot-Watt University Dubai Scholarships"
+        },
+        {
+          "title": "University of Wollongong in Dubai Scholarships"
+        }
+      ]
+    }
+  },
+  "ireland": {
+    "logos": [
+      { "path": "/images/countries/ireland/logos/trinity.webp" },
+      { "path": "/images/countries/ireland/logos/ucd.webp" },
+      { "path": "/images/countries/ireland/logos/ucc.webp" },
+      { "path": "/images/countries/ireland/logos/galway.webp" },
+      { "path": "/images/countries/ireland/logos/dcu.webp" }
+    ],
+    "heroSection": {
+      "title": ["Study in ", "Ireland"],
+      "desc": "Ireland offers top universities, diverse courses, and shorter degrees. Students benefit from part-time work, cultural experiences, and strong support. The Third-Level Graduate Scheme allows up to two years of work, making it perfect for both academic and career growth."
+    },
+    "statsSection": [
+      {
+        "num": "28+",
+        "text": "Universities"
+      },
+      {
+        "num": "€7k - €30k",
+        "text": "Annual tuition fees"
+      },
+      {
+        "num": "30k+",
+        "text": "International students"
+      },
+      {
+        "num": "2 Years",
+        "text": "Post - Study Work Visa"
+      }
+    ],
+    "flagSection": {
+      "title": ["Education in ", "Ireland"],
+      "desc": "Ireland is a top choice for ambitious students, offering world-class education and internationally recognized degrees. With a multicultural environment, lively campus life, and industry-focused programs, it connects you to real-world opportunities and career success. Choose Ireland as your gateway to a bright future.",
+      "flagImgPath": "/images/countries/ireland/flag-img.webp",
+      "dropdownItems": [
+        {
+          "title": "Post-Graduation Work Visa",
+          "text": "Stay back options allow you to gain practical work experience in Ireland after completing your studies."
+        },
+        {
+          "title": "High Standard of Living",
+          "text": "Ireland offers a safe, high-quality lifestyle with excellent healthcare, affordable living, and a welcoming culture."
+        },
+        {
+          "title": "Support for International Students",
+          "text": "Irish universities provide excellent support services, including career advice, counseling, and help with accommodation."
+        },
+        {
+          "title": "Strong International Network",
+          "text": "Ireland is a hub for multinational companies, offering students access to global business networks."
+        },
+        {
+          "title": "English Language Proficiency",
+          "text": "As an English-speaking country, Ireland offers a perfect environment for honing language skills."
+        },
+        {
+          "title": "World-Class Universities",
+          "text": "Ireland is home to some of the world’s top universities, renowned for research, innovation, and teaching quality."
+        },
+        {
+          "title": "Diverse Course Options",
+          "text": "Choose from a wide variety of courses in fields like Business, Engineering, IT, Medicine, and Humanities."
+        },
+        {
+          "title": "Cultural and Historical Richness",
+          "text": "Experience Ireland’s unique culture, history, and scenic beauty while studying in one of the most beautiful countries in Europe."
+        },
+        {
+          "title": "Short Degree Programs",
+          "text": "Ireland offers shorter, flexible programs, enabling you to complete your degree faster and start your career sooner."
+        },
+        {
+          "title": "Work Opportunities During Study",
+          "text": "International students in Ireland can work part-time during their studies, gaining valuable industry experience."
+        }
+      ]
+    },
+    "universitiesSection": {
+      "title": ["Top Universities in", "Ireland"],
+      "desc": "Ireland’s top universities offer world-class education with internationally recognized degrees, cutting-edge research, and industry-driven programs. The universities provide a vibrant, multicultural campus life and excellent student support. With strong connections to global industries, they ensure great career opportunities and employability. Additionally, Ireland’s rich culture and high standard of living make it an ideal destination for international students.",
+      "topUnis": [
+        {
+          "name": "Trinity College Dublin",
+          "location": "Dublin",
+          "path": "/images/countries/ireland/carousel/trinity.webp"
+        },
+        {
+          "name": "University College Dublin",
+          "location": "Dublin",
+          "path": "/images/countries/ireland/carousel/ucd.webp"
+        },
+        {
+          "name": "University College Cork",
+          "location": "Cork",
+          "path": "/images/countries/ireland/carousel/ucc.webp"
+        },
+        {
+          "name": "National University of Ireland Galway",
+          "location": "Galway",
+          "path": "/images/countries/ireland/carousel/galway.webp"
+        },
+        {
+          "name": "Dublin City University",
+          "location": "Dublin",
+          "path": "/images/countries/ireland/carousel/dcu.webp"
+        }
+      ]
+    },
+    "costsSection": {
+      "title": ["Cost of Studying ", "In Ireland"],
+      "desc": "Tuition fees in Ireland vary by course and university, with humanities and arts being more affordable, while medicine, engineering, and MBAs tend to be pricier. Proper planning is key.",
+      "tuitionFees": [
+        {
+          "title": "UG",
+          "amt": "EUR 9,800 – 25,500"
+        },
+        {
+          "title": "PG",
+          "amt": "EUR 9,500 – 34,500"
+        },
+        {
+          "title": "Master's",
+          "amt": "EUR 10,000 – 51,000"
+        }
+      ],
+      "livingExpenses": [
+        {
+          "title": "On Campus",
+          "amt": "EUR 300 - 600"
+        },
+        {
+          "title": "Off Campus",
+          "amt": "EUR 500 – 1,200"
+        }
+      ]
+    },
+    "topCoursesSection": {
+      "title": ["Top Courses in ", "Ireland"],
+      "desc": "Ireland is a leading study destination, offering high-quality education and global career opportunities. A degree from Dubai is internationally recognized, helping students unlock their full potential and excel in their careers.",
+      "topCourses": [
+        {
+          "title": "Business and Management"
+        },
+        {
+          "title": "Engineering and Technology"
+        },
+        {
+          "title": "Health & Medicine"
+        },
+        {
+          "title": "Law & Humanities"
+        },
+        {
+          "title": "Creative Arts & Design"
+        },
+        {
+          "title": "Science & Research"
+        }
+      ]
+    },
+    "scholarshipsSection": {
+      "title": ["Top Scholarships in Ireland for", "Indian Students"],
+      "desc": "Unlock financial support for your education journey. Apply for various scholarships and awards!",
+      "scholarships": [
+        {
+          "title": "Government of Ireland International Education Scholarship"
+        },
+        {
+          "title": "Irish Research Council Scholarships"
+        },
+        {
+          "title": "The Walsh Fellowship"
+        },
+        {
+          "title": "University College Dublin (UCD) Global Excellence Scholarship"
+        },
+        {
+          "title": "Trinity College Dublin Global Excellence Scholarship"
+        },
+        {
+          "title": "NUI Galway International Student Scholarships"
+        },
+        {
+          "title": "University College Cork (UCC) International Scholarships"
+        },
+        {
+          "title": "Dublin City University (DCU) International Merit Scholarships"
+        },
+        {
+          "title": "Maynooth University Scholarships for International Students"
+        },
+        {
+          "title": "Technological University Dublin (TU Dublin) Scholarships"
+        }
+      ]
+    }
+  },
+  "australia": {
+    "logos": [
+      { "path": "/images/countries/australia/logos/melbourne.webp" },
+      { "path": "/images/countries/australia/logos/anu.webp" },
+      { "path": "/images/countries/australia/logos/sydney.webp" },
+      { "path": "/images/countries/australia/logos/queensland.webp" },
+      { "path": "/images/countries/australia/logos/uwa.webp" },
+      { "path": "/images/countries/australia/logos/adelaide.webp" },
+      { "path": "/images/countries/australia/logos/monash.webp" },
+      { "path": "/images/countries/australia/logos/unsw.webp" }
+    ],
+    "heroSection": {
+      "title": ["Study in ", "Australia"],
+      "desc": "Australia boasts top universities, a wide range of courses, and shorter degree programs. Students enjoy part-time work opportunities, cultural experiences, and excellent support services. The Post-Study Work Visa allows up to two years of work, making it ideal for academic and career growth."
+    },
+    "statsSection": [
+      {
+        "num": "42+",
+        "text": "Universities"
+      },
+      {
+        "num": "AUD 30k - 60k",
+        "text": "Annual tuition fees"
+      },
+      {
+        "num": "700K+",
+        "text": "International students"
+      },
+      {
+        "num": "2-4 Years",
+        "text": "Post - Study Work Visa"
+      }
+    ],
+    "flagSection": {
+      "title": ["Education in ", "Australia"],
+      "desc": "Australia is a top destination for ambitious students, offering world-class education and internationally recognized degrees. With a diverse environment, vibrant campus life, and industry-focused programs, it connects you to real-world opportunities and career success. Choose Australia as your launchpad for the future.",
+      "flagImgPath": "/images/countries/australia/flag-img.webp",
+      "dropdownItems": [
+        {
+          "title": "Post-Graduation Work Visa",
+          "text": "Stay back options allow graduates to work for up to two to four years depending on the qualification."
+        },
+        {
+          "title": "High Standard of Living",
+          "text": "Australia offers a great quality of life with modern infrastructure, excellent healthcare, and a relaxed lifestyle."
+        },
+        {
+          "title": "Support for International Students",
+          "text": "Australian universities provide comprehensive support, including academic guidance, career counseling, and help with accommodation."
+        },
+        {
+          "title": "Strong International Network",
+          "text": "Study in Australia and connect with a diverse community, making global friendships and professional networks."
+        },
+        {
+          "title": "English Language Proficiency",
+          "text": "As an English-speaking country, Australia offers an ideal setting for enhancing language skills."
+        },
+        {
+          "title": "World-Class Universities",
+          "text": "Australia is home to top-ranking universities known for their research, innovation, and industry connections."
+        },
+        {
+          "title": "Diverse Course Options",
+          "text": "With a wide range of programs across fields such as business, engineering, healthcare, and creative arts, students can tailor their education to their career goals."
+        },
+        {
+          "title": "Cultural and Natural Richness",
+          "text": "Australia is not only known for its vibrant culture but also for its stunning landscapes, offering students an exciting and fulfilling experience outside the classroom."
+        },
+        {
+          "title": "Short Degree Programs",
+          "text": "Degrees in Australia are often shorter than in many other countries, allowing you to enter the workforce faster."
+        },
+        {
+          "title": "Work Opportunities During Study",
+          "text": "International students can work part-time while studying, providing both financial support and valuable work experience."
+        }
+      ]
+    },
+    "universitiesSection": {
+      "title": ["Top Universities in ", "Australia"],
+      "desc": "Australia’s top universities are research-driven institutions leading global innovation. They provide high-quality education, cutting-edge research, and strong connections to industry and the public sector, playing a key role in shaping Australia’s future and driving progress worldwide.",
+      "topUnis": [
+        {
+          "name": "University of Melbourne",
+          "location": "Melbourne",
+          "path": "/images/countries/australia/carousel/melbourne.webp"
+        },
+        {
+          "name": "Australian National University",
+          "location": "Canberra",
+          "path": "/images/countries/australia/carousel/anu.webp"
+        },
+        {
+          "name": "University of Sydney",
+          "location": "Sydney",
+          "path": "/images/countries/australia/carousel/sydney.webp"
+        },
+        {
+          "name": "University of Queensland",
+          "location": "Brisbane",
+          "path": "/images/countries/australia/carousel/queensland.webp"
+        },
+        {
+          "name": "University of Western Australia",
+          "location": "Perth",
+          "path": "/images/countries/australia/carousel/uwa.webp"
+        },
+        {
+          "name": "University of Adelaide",
+          "location": "Adelaide",
+          "path": "/images/countries/australia/carousel/adelaide.webp"
+        },
+        {
+          "name": "Monash University",
+          "location": "Melbourne",
+          "path": "/images/countries/australia/carousel/monash.webp"
+        },
+        {
+          "name": "UNSW Sydney",
+          "location": "Kensington",
+          "path": "/images/countries/australia/carousel/sydney.webp"
+        }
+      ]
+    },
+    "costsSection": {
+      "title": ["Cost of Studying ", "In Australia"],
+      "desc": "Tuition fees in Australia differ by course and university, with humanities and arts being more affordable, while medicine, engineering, and MBAs are more expensive. Careful planning is essential.",
+      "tuitionFees": [
+        {
+          "title": "Diplomas",
+          "amt": "AUD 18,000 - 24,000"
+        },
+        {
+          "title": "Bachelor’s",
+          "amt": "AUD 18,000 - 45,000"
+        },
+        {
+          "title": "Master's",
+          "amt": "AUD 25,000 - 55,000"
+        }
+      ],
+      "livingExpenses": [
+        {
+          "title": "On Campus",
+          "amt": "AUD 360 – 1,170"
+        },
+        {
+          "title": "Off Campus",
+          "amt": "AUD 1,460 – 1,760"
+        }
+      ]
+    },
+    "topCoursesSection": {
+      "title": ["Top Courses in ", "Australia"],
+      "desc": "Australia is a top study destination, offering high-quality education and global career opportunities. An Australian degree is internationally recognized, helping Indian students unlock their full potential and achieve career success.",
+      "topCourses": [
+        {
+          "title": "Engineering and Technology"
+        },
+        {
+          "title": "Business and Management"
+        },
+        {
+          "title": "Medicine and Healthcare"
+        },
+        {
+          "title": "Finance and Accounting"
+        },
+        {
+          "title": "Art and Design"
+        },
+        {
+          "title": "Computer Science"
+        }
+      ]
+    },
+    "scholarshipsSection": {
+      "title": ["Top Scholarships in Australia for", "Indian Students"],
+      "desc": "Unlock financial support for your education journey. Apply for various scholarships and awards!",
+      "scholarships": [
+        {
+          "title": "Australia Awards Scholarships"
+        },
+        {
+          "title": "Destination Australia Scholarship"
+        },
+        {
+          "title": "Research Training Program (RTP) Scholarship"
+        },
+        {
+          "title": "University of Sydney International Scholarships"
+        },
+        {
+          "title": "Melbourne Graduate Research Scholarship"
+        },
+        {
+          "title": "Monash University International Merit Scholarship"
+        },
+        {
+          "title": "University of Queensland International Scholarships"
+        },
+        {
+          "title": "Adelaide Global Excellence Scholarship"
+        },
+        {
+          "title": "UNSW International Scholarships"
+        },
+        {
+          "title": "Deakin Vice-Chancellor’s International Scholarship"
+        }
+      ]
+    }
+  },
+  "newZealand": {
+    "logos": [
+      { "path": "/images/countries/new-zealand/logos/auckland.webp" },
+      { "path": "/images/countries/new-zealand/logos/otago.webp" },
+      { "path": "/images/countries/new-zealand/logos/wellington.webp" },
+      { "path": "/images/countries/new-zealand/logos/canterbury.webp" },
+      { "path": "/images/countries/new-zealand/logos/aut.webp" }
+    ],
+    "heroSection": {
+      "title": ["Study in ", "New Zealand"],
+      "desc": "New Zealand offers top universities, diverse courses, and shorter degree programs. Students benefit from part-time work opportunities, rich cultural experiences, and strong support services. The Post-Study Work Visa allows up to three years of work, making it an excellent choice for academic and career growth."
+    },
+    "statsSection": [
+      {
+        "num": "25+",
+        "text": "Universities"
+      },
+      {
+        "num": "NZD 27k - 55k",
+        "text": "Annual tuition fees"
+      },
+      {
+        "num": "34k+",
+        "text": "International students"
+      },
+      {
+        "num": "2-3 Years",
+        "text": "Post - Study Work Visa"
+      }
+    ],
+    "flagSection": {
+      "title": ["Education in ", "New Zealand"],
+      "desc": "New Zealand is a top destination for ambitious students, offering world-class education and internationally recognized degrees. With a diverse environment, vibrant campus life, and industry-focused programs, it provides real-world opportunities and career success. Choose New Zealand as your launchpad",
+      "flagImgPath": "/images/countries/new-zealand/flag-img.webp",
+      "dropdownItems": [
+        {
+          "title": "Post-Graduation Work Visa",
+          "text": "Stay back options allow graduates to work for up to one to three years, depending on the qualification and region."
+        },
+        {
+          "title": "High Standard of Living",
+          "text": "New Zealand offers a safe, relaxed lifestyle with a great quality of life, modern infrastructure, and excellent healthcare."
+        },
+        {
+          "title": "Support for International Students",
+          "text": "Universities in New Zealand provide comprehensive support services, including guidance on academics, career counseling, and assistance with accommodation."
+        },
+        {
+          "title": "Strong International Network",
+          "text": "Study in New Zealand and build connections with a global community, offering valuable professional networking opportunities."
+        },
+        {
+          "title": "English Language Proficiency",
+          "text": "As an English-speaking country, New Zealand is an ideal setting for students to improve their language skills and gain fluency."
+        },
+        {
+          "title": "World-Class Universities",
+          "text": "New Zealand is home to top universities known for their research and high standards of teaching across a wide range of fields."
+        },
+        {
+          "title": "Diverse Course Options",
+          "text": "With courses ranging from business, engineering, and healthcare to arts, design, and environmental science, students can pursue their career passions."
+        },
+        {
+          "title": "Cultural and Natural Richness",
+          "text": "New Zealand is famous for its beautiful landscapes, outdoor activities, and a rich, diverse culture that makes the student experience unforgettable."
+        },
+        {
+          "title": "Short Degree Programs",
+          "text": "New Zealand offers shorter degree programs, allowing students to enter the workforce sooner and gain practical experience faster."
+        },
+        {
+          "title": "Work Opportunities During Study",
+          "text": "International students can work part-time while studying, providing financial support and valuable work experience."
+        }
+      ]
+    },
+    "universitiesSection": {
+      "title": ["Top Universities in ", "New Zealand"],
+      "desc": "New Zealand’s top universities are research-driven institutions fostering global innovation. They offer high-quality education, groundbreaking research, and strong ties to industry and the public sector, contributing to shaping New Zealand’s future and driving global progress.",
+      "topUnis": [
+        {
+          "name": "University of Auckland",
+          "location": "Auckland",
+          "path": "/images/countries/new-zealand/carousel/auckland.webp"
+        },
+        {
+          "name": "University of Otago",
+          "location": "Otago",
+          "path": "/images/countries/new-zealand/carousel/otago.webp"
+        },
+        {
+          "name": "Victoria University of Wellington",
+          "location": "Wellington",
+          "path": "/images/countries/new-zealand/carousel/wellington.webp"
+        },
+        {
+          "name": "University of Canterbury",
+          "location": "Christchurch",
+          "path": "/images/countries/new-zealand/carousel/canterbury.webp"
+        },
+        {
+          "name": "Auckland University of Technology",
+          "location": "Auckland",
+          "path": "/images/countries/new-zealand/carousel/aut.webp"
+        }
+      ]
+    },
+    "costsSection": {
+      "title": ["Cost of Studying ", "In New Zealand"],
+      "desc": "Tuition fees in New Zealand vary by course and university, with humanities and arts generally more affordable, while medicine, engineering, and MBAs tend to be more expensive. Proper planning is crucial.",
+      "tuitionFees": [
+        {
+          "title": "Diploma",
+          "amt": "NZD 24,000 – 30,000"
+        },
+        {
+          "title": "Bachelor’s",
+          "amt": "NZD 24,000 – 35,000"
+        },
+        {
+          "title": "Master's",
+          "amt": "NZD 27,000 – 55,000"
+        }
+      ],
+      "livingExpenses": [
+        {
+          "title": "On Campus",
+          "amt": "NZD 410 - 700"
+        },
+        {
+          "title": "Off Campus",
+          "amt": "NZD 90 - 190"
+        }
+      ]
+    },
+    "topCoursesSection": {
+      "title": ["Top Courses in ", "New Zealand"],
+      "desc": "New Zealand is a top study destination, offering high-quality education and global career opportunities. A New Zealand degree is internationally recognized, helping Indian students unlock their full potential and succeed in their careers.",
+      "topCourses": [
+        {
+          "title": "Engineering and Technology"
+        },
+        {
+          "title": "Business and Management"
+        },
+        {
+          "title": "Health and Medicine"
+        },
+        {
+          "title": "Computer Science and IT"
+        },
+        {
+          "title": "Creative Arts and Design"
+        },
+        {
+          "title": "Hospitality and Tourism"
+        },
+        {
+          "title": "Education and Social Work"
+        },
+        {
+          "title": "Environmental Science"
+        }
+      ]
+    },
+    "scholarshipsSection": {
+      "title": ["Top Scholarships in New Zealand for", "Indian Students"],
+      "desc": "Unlock financial support for your education journey. Apply for various scholarships and awards!",
+      "scholarships": [
+        {
+          "title": "New Zealand International Scholarships (NZIS)"
+        },
+        {
+          "title": "University of Auckland International Student Excellence Scholarship"
+        },
+        {
+          "title": "University of Otago International Research Masters Scholarship"
+        },
+        {
+          "title": "Victoria University of Wellington International Excellence Scholarship"
+        },
+        {
+          "title": "Auckland University of Technology International Scholarships"
+        },
+        {
+          "title": "The New Zealand Excellence Award (NZEA)"
+        },
+        {
+          "title": "Commonwealth Scholarships"
+        }
+      ]
+    }
+  },
+  "germany": {
+    "logos": [
+      { "path": "/images/countries/germany/logos/mbs.webp" },
+      { "path": "/images/countries/germany/logos/srh.webp" },
+      { "path": "/images/countries/germany/logos/lancaster.webp" },
+      { "path": "/images/countries/germany/logos/constructor.webp" },
+      { "path": "/images/countries/germany/logos/eu.webp" },
+      { "path": "/images/countries/germany/logos/bsbi.webp" },
+      { "path": "/images/countries/germany/logos/lmu.webp" },
+      { "path": "/images/countries/germany/logos/tum.webp" }
+    ],
+    "heroSection": {
+      "title": ["Study in ", "Germany"],
+      "desc": "Germany offers top universities, a wide range of courses, and shorter degree programs. Students benefit from part-time work opportunities, rich cultural experiences, and strong support services. The Post-Study Work Visa allows up to 18 months of work, making it a great choice for academic and career growth."
+    },
+    "statsSection": [
+      {
+        "num": "400+",
+        "text": "Universities"
+      },
+      {
+        "num": "€10k - €20k",
+        "text": "Annual tuition fees"
+      },
+      {
+        "num": "400K+",
+        "text": "International students"
+      },
+      {
+        "num": "1.5 Years",
+        "text": "Post - Study Work Visa"
+      }
+    ],
+    "flagSection": {
+      "title": ["Education in ", "Germany"],
+      "desc": "Germany is a top destination for ambitious students, offering world-class education and internationally recognized degrees. With a diverse environment, vibrant campus life, and industry-focused programs, it provides real-world opportunities and career success. Choose Germany as your launchpad for a bright future.",
+      "flagImgPath": "/images/countries/germany/flag-img.webp",
+      "dropdownItems": [
+        {
+          "title": "Post-Graduation Work Visa",
+          "text": "Stay-back options allow graduates to work for up to 18 months after completing their degree, with opportunities for longer stays depending on the job."
+        },
+        {
+          "title": "High Standard of Living",
+          "text": "Germany offers an excellent quality of life with modern infrastructure, healthcare, and a safe environment for international students."
+        },
+        {
+          "title": "Support for International Students",
+          "text": "Universities in Germany provide robust support services, including counseling, academic guidance, and assistance with accommodation."
+        },
+        {
+          "title": "Strong International Network",
+          "text": "Studying in Germany means becoming part of a global network, with opportunities to connect with professionals and students worldwide."
+        },
+        {
+          "title": "English Language Proficiency",
+          "text": "Many programs in Germany are taught in English, making it easier for international students to study and improve their language skills."
+        },
+        {
+          "title": "World-Class Universities",
+          "text": "Germany is home to some of the world’s best universities known for their research, technological advancement, and academic rigor."
+        },
+        {
+          "title": "Diverse Course Options",
+          "text": "Germany offers a wide variety of courses across engineering, business, arts, social sciences, and more, with special emphasis on STEM fields."
+        },
+        {
+          "title": "Cultural and Historical Richness",
+          "text": "Germany offers a rich cultural experience, with a blend of modern and traditional elements, making it a vibrant place to study."
+        },
+        {
+          "title": "Short Degree Programs",
+          "text": "Germany offers a shorter duration for many degree programs compared to other countries, allowing students to enter the workforce more quickly."
+        },
+        {
+          "title": "Work Opportunities During Study",
+          "text": "International students can work part-time during their studies, gaining valuable work experience and financial support."
+        }
+      ]
+    },
+    "universitiesSection": {
+      "title": ["Top Universities in ", "Germany"],
+      "desc": "Germany is a leading study destination, offering high-quality education with a strong focus on research and practical experience. A degree from a German university is globally recognized, helping students succeed in their careers.",
+      "topUnis": [
+        {
+          "name": "Munich Business School",
+          "location": "Munich",
+          "path": "/images/countries/germany/carousel/mbs.webp"
+        },
+        {
+          "name": "SRH Hochschule Heidelberg",
+          "location": "Heidelberg",
+          "path": "/images/countries/germany/carousel/srh.webp"
+        },
+        {
+          "name": "Lancaster University",
+          "location": "Leipzig",
+          "path": "/images/countries/germany/carousel/lancaster.webp"
+        },
+        {
+          "name": "Constructor University",
+          "location": "Bremen",
+          "path": "/images/countries/germany/carousel/constructor.webp"
+        },
+        {
+          "name": "EU Business School",
+          "location": "Munich",
+          "path": "/images/countries/germany/carousel/eu.webp"
+        },
+        {
+          "name": "Berlin School of Business",
+          "location": "Berlin",
+          "path": "/images/countries/germany/carousel/bsbi.webp"
+        },
+        {
+          "name": "Ludwig Maximilian University",
+          "location": "Munich",
+          "path": "/images/countries/germany/carousel/lmu.webp"
+        },
+        {
+          "name": "Technical University of Munich",
+          "location": "Munich",
+          "path": "/images/countries/germany/carousel/tum.webp"
+        }
+      ]
+    },
+    "costsSection": {
+      "title": ["Cost of Studying ", "In Germany"],
+      "desc": "Tuition fees in Germany vary by course, with humanities more affordable and fields like medicine and engineering costlier. Many public universities have low or no fees, so careful planning is key.",
+      "tuitionFees": [
+        {
+          "title": "Bachelor’s",
+          "amt": "EUR 8,000 – 10,000"
+        },
+        {
+          "title": "Master's",
+          "amt": "EUR 10,000 – 12,000"
+        }
+      ],
+      "livingExpenses": [
+        {
+          "title": "On Campus",
+          "amt": "EUR 180 - 330"
+        },
+        {
+          "title": "Off Campus",
+          "amt": "EUR 400 - 600"
+        }
+      ]
+    },
+    "topCoursesSection": {
+      "title": ["Top Courses in ", "Germany"],
+      "desc": "Germany is a top study destination, offering high-quality education and global career opportunities. A German degree is internationally recognized, helping Indian students unlock their full potential and achieve career success.",
+      "topCourses": [
+        {
+          "title": "Engineering and Technology"
+        },
+        {
+          "title": "Business and Management"
+        },
+        {
+          "title": "Computer Science"
+        },
+        {
+          "title": "Finance and Accounting"
+        },
+        {
+          "title": "Natural Sciences"
+        },
+        {
+          "title": "Arts and Humanities"
+        }
+      ]
+    },
+    "scholarshipsSection": {
+      "title": ["Top Scholarships in Germany for", "Indian Students"],
+      "desc": "Unlock financial support for your education journey. Apply for various scholarships and awards!",
+      "scholarships": [
+        {
+          "title": "DAAD Scholarship (German Academic Exchange Service)"
+        },
+        {
+          "title": "Deutschlandstipendium"
+        },
+        {
+          "title": "Heinrich Böll Foundation Scholarships"
+        },
+        {
+          "title": "Konrad Adenauer Foundation Scholarships"
+        },
+        {
+          "title": "Friedrich Ebert Foundation Scholarships"
+        },
+        {
+          "title": "Erasmus+ Scholarship"
+        },
+        {
+          "title": "RWTH Aachen University Scholarships"
+        },
+        {
+          "title": "University of Mannheim International Scholarships"
+        },
+        {
+          "title": "University of Heidelberg Scholarships for International Students"
+        },
+        {
+          "title": "DAAD EPOS Scholarships "
+        }
+      ]
+    }
+  }
+}
