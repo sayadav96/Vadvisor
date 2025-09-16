@@ -5,11 +5,21 @@ import path from "path";
 export async function POST(req) {
   try {
     const body = await req.json();
-    const { yourName, yourNumber, yourEmail, studyDestination, intakeYear } = body;
+    const { yourName, yourNumber, yourEmail, studyDestination, intakeYear } =
+      body;
 
     // Read HTML template
-    const templatePath = path.join(process.cwd(), "mail", "templates", "contactTemplate.html");
+    const templatePath = path.join(
+      process.cwd(),
+      "mail",
+      "templates",
+      "contactTemplate.html"
+    );
     let htmlTemplate = fs.readFileSync(templatePath, "utf8");
+
+    // Pick the correct base URL
+    const baseUrl =
+      process.env.NEXT_PUBLIC_BASE_URL || "https://vadvisor-nu.vercel.app";
 
     // Replace placeholders
     htmlTemplate = htmlTemplate
@@ -17,14 +27,15 @@ export async function POST(req) {
       .replace(/{{ yourNumber }}/g, yourNumber)
       .replace(/{{ yourEmail }}/g, yourEmail)
       .replace(/{{ studyDestination }}/g, studyDestination)
-      .replace(/{{ intakeYear }}/g, intakeYear);
+      .replace(/{{ intakeYear }}/g, intakeYear)
+      .replace(/{{ logoUrl }}/g, `${baseUrl}/images/logo.png`);
 
     // Configure transporter
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: process.env.MAIL_USER, // inquiry.vadvisoroverseas@gmail.com
-        pass: process.env.MAIL_PASS, // app password
+        user: process.env.MAIL_USER,
+        pass: process.env.MAIL_PASS,
       },
     });
 
@@ -41,6 +52,9 @@ export async function POST(req) {
     return new Response(JSON.stringify({ success: true }), { status: 200 });
   } catch (err) {
     console.error("Email error:", err);
-    return new Response(JSON.stringify({ success: false, error: err.message }), { status: 500 });
+    return new Response(
+      JSON.stringify({ success: false, error: err.message }),
+      { status: 500 }
+    );
   }
 }
