@@ -40,13 +40,9 @@ const Page = () => {
     console.log("form data before sending it to api: ", formData);
 
     try {
-      const response = await axios.post(
-        "https://vadvisoroverseas.com/mail/contactForm.php",
-        formData,
-        {
-          headers: { "Content-Type": "application/json" },
-        }
-      );
+      const response = await axios.post("/api/contact", formData, {
+        headers: { "Content-Type": "application/json" },
+      });
 
       if (response.status === 200) {
         setStatus("Email sent successfully!");
