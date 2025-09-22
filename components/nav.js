@@ -263,7 +263,7 @@ const Nav = () => {
                 setIsMenuOpen(!isMenuOpen);
               }}
             >
-              <Link className="sm:hidden" href="/contact-us#contact-form">
+              <Link className="sm:hidden" href="/contact-us">
                 <button className="lg:block px-2 py-2 w-full my-4 bg-[#F4A53C] text-white font-bold rounded-full border-2 border-[#F4A53C] focus:outline-none min-w-[180px] hover:scale-[120%] transform transition-transform duration-300">
                   Free Consultation
                 </button>
@@ -272,7 +272,7 @@ const Nav = () => {
           </ul>
         </nav>
 
-        <Link className="hidden lg:block" href="/contact-us#contact-form">
+        <Link className="hidden lg:block" href="/contact-us">
           <button className="hidden lg:block px-2 py-2 bg-[#F4A53C] text-white font-bold rounded-full border-2 border-[#F4A53C] focus:outline-none ml-4 min-w-[180px] hover:scale-[120%] transform transition-transform duration-300">
             Free Consultation
           </button>
