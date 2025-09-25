@@ -14,6 +14,7 @@ export async function POST(req) {
       referralNumber,
     } = body;
 
+    // Using the exact file path with the typo to match your file system
     const templatePath = path.join(
       process.cwd(),
       "mail",
@@ -52,10 +53,11 @@ export async function POST(req) {
 
     return new Response(JSON.stringify({ success: true }), { status: 200 });
   } catch (err) {
-    console.error("Email error for Referrral:", err);
+    console.error("Email error for Referral:", err);
     return new Response(
       JSON.stringify({ success: false, error: err.message }),
       { status: 500 }
     );
   }
 }
+
