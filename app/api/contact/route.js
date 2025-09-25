@@ -8,22 +8,30 @@ export async function GET() {
 
 export async function POST(req) {
   try {
+    console.log("POST /api/contact called");
+
     const body = await req.json();
-    const { yourName, yourNumber, yourEmail, studyDestination, intakeYear } =
-      body;
+    console.log("Request body:", body);
+
+    const { yourName, yourNumber, yourEmail, studyDestination, intakeYear } = body;
+    console.log("Parsed fields:", { yourName, yourNumber, yourEmail, studyDestination, intakeYear });
 
     // Read HTML template
-    const templatePath = path.join(
-      process.cwd(),
-      "mail",
-      "templates",
-      "contactTemplate.html"
-    );
-    let htmlTemplate = fs.readFileSync(templatePath, "utf8");
+    const templatePath = path.join(process.cwd(), "mail", "templates", "contactTemplate.html");
+    console.log("Template path:", templatePath);
+
+    let htmlTemplate;
+    try {
+      htmlTemplate = fs.readFileSync(templatePath, "utf8");
+      console.log("Template read successfully");
+    } catch (err) {
+      console.error("Error reading template:", err);
+      return new Response(JSON.stringify({ success: false, error: "Template not found" }), { status: 500 });
+    }
 
     // Pick the correct base URL
-    const baseUrl =
-      process.env.NEXT_PUBLIC_BASE_URL || "https://vadvisor-fawn.vercel.app";
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://vadvisor-fawn.vercel.app";
+    console.log("Base URL:", baseUrl);
 
     // Replace placeholders
     htmlTemplate = htmlTemplate
@@ -33,15 +41,23 @@ export async function POST(req) {
       .replace(/{{ studyDestination }}/g, studyDestination)
       .replace(/{{ intakeYear }}/g, intakeYear)
       .replace(/{{ logoUrl }}/g, `${baseUrl}/images/logo.png`);
+    console.log("Placeholders replaced");
 
     // Configure transporter
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.MAIL_USER,
-        pass: process.env.MAIL_PASS,
-      },
-    });
+    let transporter;
+    try {
+      transporter = nodemailer.createTransport({
+        service: "gmail",
+        auth: {
+          user: process.env.MAIL_USER,
+          pass: process.env.MAIL_PASS,
+        },
+      });
+      console.log("Transporter configured");
+    } catch (err) {
+      console.error("Error configuring transporter:", err);
+      return new Response(JSON.stringify({ success: false, error: "Transporter setup failed" }), { status: 500 });
+    }
 
     // Mail options
     const mailOptions = {
@@ -50,15 +66,20 @@ export async function POST(req) {
       subject: "New Contact Us Submission",
       html: htmlTemplate,
     };
+    console.log("Mail options prepared");
 
-    await transporter.sendMail(mailOptions);
+    // Send mail
+    try {
+      const info = await transporter.sendMail(mailOptions);
+      console.log("Mail sent successfully:", info);
+    } catch (err) {
+      console.error("Error sending mail:", err);
+      return new Response(JSON.stringify({ success: false, error: "Failed to send mail" }), { status: 500 });
+    }
 
     return new Response(JSON.stringify({ success: true }), { status: 200 });
   } catch (err) {
-    console.error("Email error for contact us:", err);
-    return new Response(
-      JSON.stringify({ success: false, error: err.message }),
-      { status: 500 }
-    );
+    console.error("Unexpected error in POST /api/contact:", err);
+    return new Response(JSON.stringify({ success: false, error: err.message }), { status: 500 });
   }
 }

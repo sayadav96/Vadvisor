@@ -30,14 +30,11 @@ const Page = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevFormData) => ({ ...prevFormData, [name]: value || "" }));
-    console.log("form data after change: ", formData);
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("Sending...");
-
-    console.log("form data before sending it to api: ", formData);
 
     try {
       const response = await axios.post("/api/contact", formData, {
