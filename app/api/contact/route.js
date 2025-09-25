@@ -13,11 +13,23 @@ export async function POST(req) {
     const body = await req.json();
     console.log("Request body:", body);
 
-    const { yourName, yourNumber, yourEmail, studyDestination, intakeYear } = body;
-    console.log("Parsed fields:", { yourName, yourNumber, yourEmail, studyDestination, intakeYear });
+    const { yourName, yourNumber, yourEmail, studyDestination, intakeYear } =
+      body;
+    console.log("Parsed fields:", {
+      yourName,
+      yourNumber,
+      yourEmail,
+      studyDestination,
+      intakeYear,
+    });
 
     // Read HTML template
-    const templatePath = path.join(process.cwd(), "mail", "templates", "contactTemplate.html");
+    const templatePath = path.join(
+      process.cwd(),
+      "mail",
+      "templates",
+      "contactTemplate.html"
+    );
     console.log("Template path:", templatePath);
 
     let htmlTemplate;
@@ -26,11 +38,15 @@ export async function POST(req) {
       console.log("Template read successfully");
     } catch (err) {
       console.error("Error reading template:", err);
-      return new Response(JSON.stringify({ success: false, error: "Template not found" }), { status: 500 });
+      return new Response(
+        JSON.stringify({ success: false, error: "Template not found" }),
+        { status: 500 }
+      );
     }
 
     // Pick the correct base URL
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://vadvisor-fawn.vercel.app";
+    const baseUrl =
+      process.env.NEXT_PUBLIC_BASE_URL || "https://vadvisor-fawn.vercel.app";
     console.log("Base URL:", baseUrl);
 
     // Replace placeholders
@@ -56,13 +72,20 @@ export async function POST(req) {
       console.log("Transporter configured");
     } catch (err) {
       console.error("Error configuring transporter:", err);
-      return new Response(JSON.stringify({ success: false, error: "Transporter setup failed" }), { status: 500 });
+      return new Response(
+        JSON.stringify({ success: false, error: "Transporter setup failed" }),
+        { status: 500 }
+      );
     }
+
+    const recipients = process.env.MAIL_RECEIVER
+      ? process.env.MAIL_RECEIVER.split(",").map((email) => email.trim())
+      : [process.env.MAIL_USER];
 
     // Mail options
     const mailOptions = {
       from: `"VAdvisor Overseas" <${process.env.MAIL_USER}>`,
-      to: process.env.MAIL_RECEIVER || process.env.MAIL_USER,
+      to: recipients,
       subject: "New Contact Us Submission",
       html: htmlTemplate,
     };
@@ -74,12 +97,18 @@ export async function POST(req) {
       console.log("Mail sent successfully:", info);
     } catch (err) {
       console.error("Error sending mail:", err);
-      return new Response(JSON.stringify({ success: false, error: "Failed to send mail" }), { status: 500 });
+      return new Response(
+        JSON.stringify({ success: false, error: "Failed to send mail" }),
+        { status: 500 }
+      );
     }
 
     return new Response(JSON.stringify({ success: true }), { status: 200 });
   } catch (err) {
     console.error("Unexpected error in POST /api/contact:", err);
-    return new Response(JSON.stringify({ success: false, error: err.message }), { status: 500 });
+    return new Response(
+      JSON.stringify({ success: false, error: err.message }),
+      { status: 500 }
+    );
   }
 }
