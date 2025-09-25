@@ -43,9 +43,13 @@ export async function POST(req) {
       },
     });
 
+    const recipients = process.env.MAIL_RECEIVER
+      ? process.env.MAIL_RECEIVER.split(",").map((email) => email.trim())
+      : [process.env.MAIL_USER];
+
     const mailOptions = {
       from: `"VAdvisor Overseas" <${process.env.MAIL_USER}>`,
-      to: process.env.MAIL_RECEIVER || process.env.MAIL_USER,
+      to: recipients,
       subject: "New Referral Submission received",
       html: htmlTemplate,
     };
@@ -60,4 +64,3 @@ export async function POST(req) {
     );
   }
 }
-
