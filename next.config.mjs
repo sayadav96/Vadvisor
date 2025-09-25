@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: "export", // Ensure it's a static export
   images: {
     unoptimized: true, // Ensures images work properly in static mode
   },
