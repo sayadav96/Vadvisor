@@ -2,6 +2,10 @@ import nodemailer from "nodemailer";
 import fs from "fs";
 import path from "path";
 
+export async function GET() {
+  return new Response("API is alive", { status: 200 });
+}
+
 export async function POST(req) {
   try {
     const body = await req.json();
@@ -19,7 +23,7 @@ export async function POST(req) {
 
     // Pick the correct base URL
     const baseUrl =
-      process.env.NEXT_PUBLIC_BASE_URL || "https://vadvisor-nu.vercel.app";
+      process.env.NEXT_PUBLIC_BASE_URL || "https://vadvisor-fawn.vercel.app";
 
     // Replace placeholders
     htmlTemplate = htmlTemplate
