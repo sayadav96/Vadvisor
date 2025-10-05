@@ -9,6 +9,7 @@ import { ScrollingLogos } from "@/components/ScrollingLogos";
 import { ScrollingServices } from "@/components/ScrollingServices";
 import Link from "next/link";
 import Image from "next/image";
+import VideoBanner from "@/components/VideoBanner";
 
 const countryLinks = [
   "uk",
@@ -143,7 +144,7 @@ export default function Home() {
   return (
     <main className="bg-white text-gray-900">
       {/* Hero Section */}
-      <section className="max-w-[1920px] bg-white md:px-20 lg:px-[10rem] pt-[7rem] sm:pt-10 mx-auto">
+      {/* <section className="max-w-[1920px] bg-white md:px-20 lg:px-[10rem] pt-[7rem] sm:pt-10 mx-auto">
         <div className="container mx-auto flex flex-col lg:flex-col items-center">
           <div className="lg:w-1/2 mb-10">
             <h1 className="px-5 text-4xl font-semibold text-[#F4A53C] text-center sm:px-0">
@@ -153,17 +154,18 @@ export default function Home() {
           <div className="lg:w-3/4 mt-10 lg:mt-0 relative w-full h-[300px] sm:h-[400px]">
             {" "}
             {/* Added height for mobile */}
-            <Image
+      {/* <Image
               src="/images/hero-image.webp"
               alt="Hero Image"
               className="object-contain"
               fill="responsive"
               sizes="100vw"
               draggable={false}
-            />
-          </div>
-        </div>
-      </section>
+            /> */}
+      {/* </div>
+        </div> */}
+      {/* </section> */}
+      <VideoBanner videoSrc="/videos/banner.mp4" />
 
       <section className="max-w-[1920px] mx-auto bg-white sm:pt-20 sm:pb-10">
         <ScrollingLogos homePage={true} />
