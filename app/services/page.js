@@ -17,37 +17,37 @@ const services = [
     path: "bg-[url(/images/student-building.webp)] rounded-s-md",
     title1: "Students ",
     title2: " Accommodations",
-    text: "VAdvisor helps students with their trusted partners make finding the right accommodation effortless. Whether you prefer a cozy apartment or a student residence, we ensure a hassle-free housing experience, allowing you to focus on your studies and enjoy your time abroad!",
+    text: "Jetset VAdvisor helps students with their trusted partners make finding the right accommodation effortless. Whether you prefer a cozy apartment or a student residence, we ensure a hassle-free housing experience, allowing you to focus on your studies and enjoy your time abroad!",
   },
   {
     path: "bg-[url(/images/money-jar.webp)] rounded-e-md",
     title1: "University ",
     title2: " Deposits/Remittance",
-    text: "Handling international payments can be challenging, especially for students. VAdvisor streamlines the remittance process, ensuring secure and timely transfers for tuition, deposits, and other university fees. We collaborate with trusted financial partners to offer safe, transparent, and hassle-free transactions, giving students peace of mind to focus on their studies.",
+    text: "Handling international payments can be challenging, especially for students. Jetset VAdvisor streamlines the remittance process, ensuring secure and timely transfers for tuition, deposits, and other university fees. We collaborate with trusted financial partners to offer safe, transparent, and hassle-free transactions, giving students peace of mind to focus on their studies.",
   },
   {
     path: "bg-[url(/images/flight-ticket.webp)] rounded-s-md",
     title1: "Flight ",
     title2: "Booking",
-    text: "VAdvisor partners with top flight booking platforms to help students find affordable and flexible travel options. With access to exclusive student discounts, real-time price comparisons, and personalized support, we ensure a seamless booking experience. Plus, we assist with accommodation and other travel needs, making your study abroad journey stress-free.",
+    text: "Jetset VAdvisor partners with top flight booking platforms to help students find affordable and flexible travel options. With access to exclusive student discounts, real-time price comparisons, and personalized support, we ensure a seamless booking experience. Plus, we assist with accommodation and other travel needs, making your study abroad journey stress-free.",
   },
   {
     path: "bg-[url(/images/health-insurance.webp)] rounded-e-md",
     title1: "Health Insurance & ",
     title2: "Travel Insurance",
-    text: "VAdvisor helps students secure the right health and travel insurance for their study abroad journey. Partnering with trusted providers, we ensure coverage for medical expenses, emergencies, trip interruptions, and other travel risks. With flexible plans tailored to destination requirements, we make navigating insurance simple, giving students peace of mind so they can focus on their studies.",
+    text: "Jetset VAdvisor helps students secure the right health and travel insurance for their study abroad journey. Partnering with trusted providers, we ensure coverage for medical expenses, emergencies, trip interruptions, and other travel risks. With flexible plans tailored to destination requirements, we make navigating insurance simple, giving students peace of mind so they can focus on their studies.",
   },
   {
     path: "bg-[url(/images/forex.webp)] rounded-s-md",
     title1: "Forex Card & ",
     title2: "Currency Exchange",
-    text: "VAdvisor simplifies managing finances abroad by helping students with Forex cards and currency exchange. Through our trusted partners, we provide secure, prepaid Forex cards that support multiple currencies, reducing the risks of carrying cash. We also ensure students get competitive exchange rates for everyday expenses, tuition, and emergencies. With our expert guidance, managing foreign currency becomes hassle-free, allowing students to focus on their studies with confidence.",
+    text: "Jetset VAdvisor simplifies managing finances abroad by helping students with Forex cards and currency exchange. Through our trusted partners, we provide secure, prepaid Forex cards that support multiple currencies, reducing the risks of carrying cash. We also ensure students get competitive exchange rates for everyday expenses, tuition, and emergencies. With our expert guidance, managing foreign currency becomes hassle-free, allowing students to focus on their studies with confidence.",
   },
   {
     path: "bg-[url(/images/currency.webp)] rounded-e-md",
     title1: "Money ",
     title2: "Transfer",
-    text: "VAdvisor, in partnership with Flywire, offers seamless money transfers designed specifically for students studying abroad. Unlike traditional banks, our service is tailored to your needs, ensuring secure and hassle-free transactions. With us handling your transfers, you can focus on your education while we take care of your finances with ease and reliability.",
+    text: "Jetset VAdvisor, in partnership with Flywire, offers seamless money transfers designed specifically for students studying abroad. Unlike traditional banks, our service is tailored to your needs, ensuring secure and hassle-free transactions. With us handling your transfers, you can focus on your education while we take care of your finances with ease and reliability.",
   },
 ];
 
@@ -185,17 +185,17 @@ const Page = () => {
       >
         <div className="col-span-6 px-5">
           <h1 className="text-4xl sm:text-5xl font-bold pt-6 sm:pt-12 pb-8 text-[#585858]">
-            VAdvisor Education Loan:{" "}
+            Jetset VAdvisor Education Loan:{" "}
             <span className="text-[#f4a53c]">
               Empowering Your Dreams, Funding Your Future!
             </span>
           </h1>
           <p className="">
-            VAdvisor partners with leading financial institutions to simplify
-            study abroad financing. From comparing loan options to guiding you
-            through eligibility, interest rates, and repayment terms, we ensure
-            a smooth and transparent process—so you can focus on your studies
-            with confidence.
+            Jetset VAdvisor partners with leading financial institutions to
+            simplify study abroad financing. From comparing loan options to
+            guiding you through eligibility, interest rates, and repayment
+            terms, we ensure a smooth and transparent process—so you can focus
+            on your studies with confidence.
           </p>
           <ConnectButton mobileHidden className={"mt-[4rem]"} />
         </div>
@@ -216,7 +216,7 @@ const Page = () => {
         <div className="px-5 md:px-20 lg:px-[10rem]">
           <SectionIntro
             className=""
-            headingtext1="How Vadvisor Makes"
+            headingtext1="How Jetset VAdvisor Makes"
             headingtext2="Financing Effortless"
           />
         </div>
@@ -241,7 +241,7 @@ const Page = () => {
               headingtext1="Trusted "
               headingtext2="Financial Partners"
               headingtext3=""
-              paragraph="At VAdvisor, we partner with top financial institutions to offer flexible, competitive education loans. Our trusted partners ensure a smooth, hassle-free process, helping you finance your study abroad journey with ease."
+              paragraph="At Jetset VAdvisor, we partner with top financial institutions to offer flexible, competitive education loans. Our trusted partners ensure a smooth, hassle-free process, helping you finance your study abroad journey with ease."
             ></SectionIntro>
           </div>
           <ConnectButton mobileHidden={true} />
@@ -268,7 +268,7 @@ const Page = () => {
               headingtext2={"Study Loans"}
               headingtext3=""
               paragraph={
-                "VAdvisor simplifies the education loan process by connecting you with trusted financial institutions. We guide you through loan options, eligibility, interest rates, and repayment terms, ensuring you secure the best funding for your study abroad journey."
+                "Jetset VAdvisor simplifies the education loan process by connecting you with trusted financial institutions. We guide you through loan options, eligibility, interest rates, and repayment terms, ensuring you secure the best funding for your study abroad journey."
               }
             ></SectionIntro>
             <ConnectButton className={"mt-[4rem]"} />

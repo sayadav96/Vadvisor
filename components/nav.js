@@ -15,11 +15,11 @@ const Nav = () => {
         <Link href="/">
           <Image
             src="/images/logo.png"
-            alt="VAdvisor Logo"
+            alt="Jetset VAdvisor Logo"
             width={0}
             height={0}
             draggable={false}
-            className="h-auto w-[7.5rem]"
+            className="h-auto w-[10rem]"
             loading="lazy"
           />
         </Link>

@@ -1,54 +1,52 @@
-import React from "react";
+import React, { useRef, useState } from 'react';
+import { Volume2, VolumeX } from 'lucide-react'; 
 
-/**
- * A video banner component that displays a looping, autoplaying, and muted video.
- *
- * @param {object} props
- * @param {string} props.videoSrc - The source path of the video file (e.g., '/videos/hero-video.mp4').
- */
 const VideoBanner = ({ videoSrc }) => {
+  const [isMuted, setIsMuted] = useState(true);
+  const videoRef = useRef(null);
+
+  const toggleMute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = !isMuted;
+      setIsMuted(!isMuted);
+    }
+  };
+  
   if (!videoSrc) {
-    // Optionally return null or a fallback element if the source isn't provided
     console.error("VideoBanner requires a 'videoSrc' prop.");
     return null;
   }
 
   return (
-    <section className="max-w-[1920px] bg-white md:px-20 lg:px-[10rem] pt-[7rem] sm:pt-10 mx-auto relative overflow-hidden">
-      {/* Video Element */}
-      <div className="absolute top-0 left-0 w-full h-full z-0">
+    // Main section height: 50vh on mobile, full screen (h-screen) on desktop
+    <section className="max-w-[1920px] bg-white md:px-20 lg:px-[10rem] pt-[7rem] sm:pt-10 mx-auto relative overflow-x-hidden h-[50vh] md:h-screen">
+      
+      {/* Video Element Container */}
+      {/* Container height mirrors the section height to ensure fill */}
+      <div className="absolute top-0 left-0 w-full h-[50vh] md:h-screen z-0">
         <video
+          ref={videoRef}
           autoPlay
           loop
-          muted
-          playsInline // Recommended for mobile autoplay
-          className="w-full h-full object-cover"
+          muted={isMuted}
+          playsInline
+          className="w-full h-full object-cover" 
         >
-          {/* The video source is now dynamically set by the videoSrc prop */}
           <source src={videoSrc} type="video/mp4" />
-          {/* Fallback for browsers that don't support the video tag */}
           Your browser does not support the video tag.
         </video>
       </div>
 
-      {/* Content Overlay */}
-      <div className="container mx-auto flex flex-col items-center relative z-10 py-20 lg:py-60">
-        {/* Optional: Add an overlay div to darken the video for better text visibility */}
-        {/* <div className="absolute inset-0 bg-black opacity-30 z-0"></div> */}
-
-        <div className="relative z-10">
-          <h1 className="px-5 text-4xl sm:text-5xl font-extrabold text-white text-center sm:px-0 drop-shadow-lg">
-            Education Without Borders, Success Without Limits
-          </h1>
-          {/* You can add more text, buttons, or elements here */}
-          <a
-            href="/free-video/happy-multi-ethnical-graduates-tossing-caps-running-park-near-university-sunny-graduation-day_478784#fromView=search&page=1&position=3&uuid=ee624fb1-1c64-4e98-8074-3b05d6f2cffd"
-            className="text-gray-950 text-opacity-50"
-          >
-            Image by freepik
-          </a>
-        </div>
-      </div>
+      {/* Mute/Unmute Button (Stays in the bottom corner) */}
+      <button
+        onClick={toggleMute}
+        // z-30 ensures it is above the video (z-0)
+        className="absolute bottom-5 right-5 z-30 p-3 rounded-full bg-white/30 backdrop-blur-sm text-white hover:bg-white/50 transition-colors"
+        aria-label={isMuted ? "Unmute video" : "Mute video"}
+      >
+        {isMuted ? <VolumeX size={24} /> : <Volume2 size={24} />}
+      </button>
+      
     </section>
   );
 };

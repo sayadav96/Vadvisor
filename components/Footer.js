@@ -10,18 +10,19 @@ const Footer = () => {
         <div className="mb-6 col-span-4 max-w-[400px] mx-auto sm:mx-0">
           <Image
             src="/images/logo.png"
-            alt="VAdvisor Logo"
-            className="w-32 h-auto mb-4 relative bottom-4"
+            alt="Jetset VAdvisor Logo"
+            className="w-[10rem] h-auto mb-4 relative bottom-4"
             width={0}
             height={0}
             sizes="100vw"
             loading="lazy"
           />
           <p className="text-[#585858] text-left">
-            At VAdvisor, we’re dedicated to breaking down geographical barriers
-            in education. By offering expert counsel, tailored reinforce, and
-            heartfelt support to help students navigate their international
-            journey and develop the skills to thrive in a globalized world.
+            At Jetset VAdvisor, we’re dedicated to breaking down geographical
+            barriers in education. By offering expert counsel, tailored
+            reinforce, and heartfelt support to help students navigate their
+            international journey and develop the skills to thrive in a
+            globalized world.
           </p>
         </div>
 
@@ -258,7 +259,7 @@ const Footer = () => {
       </div>
 
       <div className="grid grid-flow-row sm:grid-flow-col max-sm:gap-1 max-sm:text-sm justify-center sm:justify-between px-2 sm:mt-8 text-[#585858] border-t border-gray-200 pt-4">
-        <span className="text-left">Copyright ©2025 VAdvisor</span>{" "}
+        <span className="text-left">Copyright ©2025 Jetset VAdvisor</span>{" "}
         <span className="flex flex-row [@media(max-width:391px)]:flex-col items-end text-right">
           Designed & Developed by&nbsp;{" "}
           <span className="flex flex-row items-end text-right">

@@ -237,7 +237,7 @@ const Country = ({ data, heroImg, dropdownItems }) => {
           <div className="grow max-sm:mb-8">
             <SectionIntro
               headingtext1="Why Choose "
-              headingtext2="VAdvisor Overseas"
+              headingtext2="Jetset VAdvisor Overseas"
               headingtext3=""
               paragraph="Navigate your study abroad journey with ease, backed by our comprehensive support services every step of the way."
             ></SectionIntro>

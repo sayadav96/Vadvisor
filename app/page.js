@@ -102,7 +102,7 @@ const testimonials = [
   {
     id: 3,
     name: "Arya",
-    text: "Thrilled to share my incredible journey with VAdvisor Overseas Education Consultant! Thanks to their unparalleled expertise, I secured admission to the...",
+    text: "Thrilled to share my incredible journey with Jetset vadvisor Overseas Education Consultant! Thanks to their unparalleled expertise, I secured admission to the...",
     rating: 5,
     link: "https://g.co/kgs/csoESm7",
   },
@@ -143,31 +143,9 @@ export default function Home() {
 
   return (
     <main className="bg-white text-gray-900">
-      {/* Hero Section */}
-      {/* <section className="max-w-[1920px] bg-white md:px-20 lg:px-[10rem] pt-[7rem] sm:pt-10 mx-auto">
-        <div className="container mx-auto flex flex-col lg:flex-col items-center">
-          <div className="lg:w-1/2 mb-10">
-            <h1 className="px-5 text-4xl font-semibold text-[#F4A53C] text-center sm:px-0">
-              Education Without Borders, Success Without Limits
-            </h1>
-          </div>
-          <div className="lg:w-3/4 mt-10 lg:mt-0 relative w-full h-[300px] sm:h-[400px]">
-            {" "}
-            {/* Added height for mobile */}
-      {/* <Image
-              src="/images/hero-image.webp"
-              alt="Hero Image"
-              className="object-contain"
-              fill="responsive"
-              sizes="100vw"
-              draggable={false}
-            /> */}
-      {/* </div>
-        </div> */}
-      {/* </section> */}
       <VideoBanner videoSrc="/videos/banner.mp4" />
 
-      <section className="max-w-[1920px] mx-auto bg-white sm:pt-20 sm:pb-10">
+      <section className="max-w-[1920px] mx-auto bg-white pt-10 sm:pt-20 sm:pb-10">
         <ScrollingLogos homePage={true} />
       </section>
       <section className="max-w-[1920px] mx-auto px-5 md:px-20 lg:px-[10rem] bg-white max-sm:pt-[4rem] sm:py-[4rem]">
@@ -308,7 +286,7 @@ export default function Home() {
             </div>
             <p className="rounded-md bg-[#f4a53c33] px-2 py-2 my-10">
               Application and Service Fees for Universities and Visa Assistance
-              with VAdvisor Overseas*
+              with Jetset VAdvisor Overseas*
             </p>
             {/*<div className="w-full mx-auto">
               Dropdown Header 
@@ -328,7 +306,7 @@ export default function Home() {
                     <li className="my-2">
                       A student becomes eligible only when the university
                       acknowledges and accepts the particular English
-                      proficiency test, they have taken. VAdvisor also offers a
+                      proficiency test, they have taken. Jetset vadvisor also offers a
                       refund for the exam fees.
                     </li>
                     <li className="my-2">
@@ -376,7 +354,7 @@ export default function Home() {
         <SectionIntro
           subHeadingText="Our Services"
           headingtext1="Why Choose "
-          headingtext2="VAdvisor Overseas"
+          headingtext2="Jetset VAdvisor Overseas"
           headingtext3=""
           paragraph="Navigate your study abroad journey with ease, backed by our comprehensive support services every step of the way."
         ></SectionIntro>
@@ -390,7 +368,7 @@ export default function Home() {
           headingtext1="Hear What Our "
           headingtext2="Students Say"
           headingtext3=""
-          paragraph="Discover inspiring success stories from students who achieved their study abroad dreams with VAdvisor Overseas' expert guidance and support."
+          paragraph="Discover inspiring success stories from students who achieved their study abroad dreams with Jetset VAdvisor Overseas' expert guidance and support."
         ></SectionIntro>
         <Carousel
           responsive={{

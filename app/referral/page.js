@@ -296,13 +296,13 @@ const Page = () => {
                   non-transferrable.
                 </li>
                 <li className="my-1">
-                  &nbsp;VAdvisor employees and their families are not eligible
-                  for this offer.
+                  &nbsp;Jetset VAdvisor employees and their families are not
+                  eligible for this offer.
                 </li>
                 <li className="my-1">
                   Students flying for the January intake will receive cash back
                   in March, while those flying for the September intake will
-                  receive cash back in December, from VAdvisor.
+                  receive cash back in December, from Jetset VAdvisor.
                 </li>
                 <li className="my-1">
                   Commission will be distributed based on the first-come,
@@ -310,13 +310,14 @@ const Page = () => {
                 </li>
                 <li className="my-1">
                   &nbsp;If the referred student is already an existing student
-                  with VAdvisor, then they will not be considered as your
+                  with Jetset VAdvisor, then they will not be considered as your
                   referral.
                 </li>
                 <li className="my-1">
                   If a student refers a friend from the same classes / college,
                   the referral will not be considered if there is already an
-                  existing contract between the class / college and VAdvisor.
+                  existing contract between the class / college and Jetset
+                  VAdvisor.
                 </li>
                 <li className="my-1">
                   A student referring someone who is changing agents may not
