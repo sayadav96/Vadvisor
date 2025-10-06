@@ -145,7 +145,7 @@ export default function Home() {
     <main className="bg-white text-gray-900">
       <VideoBanner videoSrc="/videos/banner.mp4" />
 
-      <section className="max-w-[1920px] mx-auto bg-white pt-10 sm:pt-20 sm:pb-10">
+      <section className="max-w-[1920px] mx-auto bg-white sm:pt-20 sm:pb-10">
         <ScrollingLogos homePage={true} />
       </section>
       <section className="max-w-[1920px] mx-auto px-5 md:px-20 lg:px-[10rem] bg-white max-sm:pt-[4rem] sm:py-[4rem]">
