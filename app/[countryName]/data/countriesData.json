@@ -1259,5 +1259,236 @@
         }
       ]
     }
+  },
+  "usa": {
+    "logos": [
+      { "path": "/images/countries/usa/logos/asu.png" },
+      { "path": "/images/countries/usa/logos/buffalo.jpg" },
+      { "path": "/images/countries/usa/logos/drexel.png" },
+      { "path": "/images/countries/usa/logos/njit.webp" },
+      { "path": "/images/countries/usa/logos/purdue.png" },
+      { "path": "/images/countries/usa/logos/wpi.png" },
+      { "path": "/images/countries/usa/logos/rti.png" },
+      { "path": "/images/countries/usa/logos/san-jose.png" },
+      { "path": "/images/countries/usa/logos/south-florida.webp" },
+      { "path": "/images/countries/usa/logos/stevens.png" }
+    ],
+    "heroSection": {
+      "title": ["Study in ", "USA"],
+      "desc": "The USA offers world-renowned universities, diverse programs, and cutting-edge research opportunities. Students gain global exposure, part-time work options, and vibrant cultural experiences. With the OPT & STEM OPT extension, you can work up to 3 years after graduation—making it the perfect destination for academic and career growth. Apply now with Jetset VAdvisor and get expert guidance for your dream future!"
+    },
+    "statsSection": [
+      {
+        "num": "0+",
+        "text": "Universities"
+      },
+      {
+        "num": "0k - 0k",
+        "text": "Annual tuition fees"
+      },
+      {
+        "num": "0K",
+        "text": "International students"
+      },
+      {
+        "num": "0 Years",
+        "text": "Post - Study Work Visa"
+      }
+    ],
+    "flagSection": {
+      "title": ["Education in ", "United States of America"],
+      "desc": "The USA is the world’s most popular study-abroad destination, offering cutting-edge research, globally recognized degrees, and unmatched career opportunities. With over 5,000+ universities, a flexible academic system, and access to the global job market, studying in the USA helps students achieve both academic excellence and professional success.",
+      "flagImgPath": "/images/countries/usa/flag-img.webp",
+      "dropdownItems": [
+        {
+          "title": "World-Class Universities",
+          "text": "Home to Ivy League and top-ranked institutions known for innovation and academic excellence."
+        },
+        {
+          "title": "Diverse Course Options",
+          "text": "Wide range of programs across STEM, business, arts, and humanities."
+        },
+        {
+          "title": "Flexible Academic Curriculum",
+          "text": "Opportunity to choose majors and minors tailored to your interests."
+        },
+        {
+          "title": "High Quality of Education",
+          "text": "Cutting-edge faculty, advanced research, and global rankings."
+        },
+        {
+          "title": "Scholarship Opportunities",
+          "text": "Multiple funding options for deserving international students."
+        },
+        {
+          "title": "Post-Graduation Work Opportunities",
+          "text": "OPT (12 months) and STEM OPT extension (additional 24 months) allow graduates to gain practical work experience."
+        },
+        {
+          "title": "Access to Global Job Market",
+          "text": "Internship and Co-Op opportunities with leading multinational corporations."
+        },
+        {
+          "title": "Multicultural Experience",
+          "text": "Exposure to diverse cultures and perspectives with the world’s largest international student community."
+        },
+        {
+          "title": "Global Industry Connections",
+          "text": "Home to tech and business giants like Google, Microsoft, Apple, and Amazon."
+        }
+      ]
+    },
+    "universitiesSection": {
+      "title": ["Top Universities in ", "United States of America"],
+      "desc": "The USA is home to world-class institutions known for innovation, research, and industry partnerships. These universities offer globally recognized degrees, cutting-edge facilities, and strong career opportunities, making them top choices for international students.",
+      "topUnis": [
+        {
+          "name": " ",
+          "location": "Arizona",
+          "path": "/images/countries/usa/carousel/arizona.webp"
+        },
+        {
+          "name": "Stevens Institute of Technology",
+          "location": "New Jersey",
+          "path": "/images/countries/usa/carousel/stewens.webp"
+        },
+        {
+          "name": "Rochester Institute of Technology",
+          "location": "New York",
+          "path": "/images/countries/usa/carousel/rochester.webp"
+        },
+        {
+          "name": "State University of New York at Buffalo",
+          "location": "New York",
+          "path": "/images/countries/usa/carousel/buffalo.webp"
+        },
+        {
+          "name": "University of South Florida",
+          "location": "Florida",
+          "path": "/images/countries/usa/carousel/south-florida.webp"
+        },
+        {
+          "name": "San Jose State University",
+          "location": "California",
+          "path": "/images/countries/usa/carousel/san-jose.webp"
+        },
+        {
+          "name": "Drexel University",
+          "location": "Pennsylvania",
+          "path": "/images/countries/usa/carousel/drexel.webp"
+        },
+        {
+          "name": "Worcester Polytechnic Institute",
+          "location": "Massachusetts",
+          "path": "/images/countries/usa/carousel/worcester.webp"
+        },
+        {
+          "name": "Purdue University – Northwest",
+          "location": "Indiana",
+          "path": "/images/countries/usa/carousel/purdue.webp"
+        },
+        {
+          "name": "New Jersey Institute of Technology",
+          "location": "New Jersey",
+          "path": "/images/countries/usa/carousel/njit.webp"
+        }
+      ]
+    },
+    "costsSection": {
+      "title": ["Cost of Studying ", "In United States of America"],
+      "desc": "The USA offers top-ranked universities and globally recognized degrees. Tuition fees vary depending on the program, with STEM, MBA, and Medicine generally costing more. Along with tuition, students should consider living and accommodation expenses.",
+      "tuitionFees": [
+        {
+          "title": "Bachelor’s",
+          "amt": "₹ 70,00,000 – ₹ 1,00,00,000"
+        },
+        {
+          "title": "Master's",
+          "amt": "₹ 40,00,000 – ₹ 65,00,000"
+        }
+      ],
+      "livingExpenses": [
+        {
+          "title": "On Campus",
+          "amt": "₹ 8,00,000 – ₹ 12,00,000"
+        },
+        {
+          "title": "Off Campus",
+          "amt": "₹ 10,00,000 – ₹ 15,00,000"
+        }
+      ]
+    },
+    "topCoursesSection": {
+      "title": ["Top Courses in ", "the United States of America"],
+      "desc": "The USA is the most preferred study destination, offering globally recognized degrees, cutting-edge research, and excellent career opportunities. With flexible programs and diverse options, U.S. universities help international students shape successful futures.",
+      "topCourses": [
+        {
+          "title": "Information Technology"
+        },
+        {
+          "title": "Business and Management"
+        },
+        {
+          "title": "Engineering"
+        },
+        {
+          "title": "Computer Science & Data Science"
+        },
+        {
+          "title": "Psychology & Social Work"
+        },
+        {
+          "title": "Architecture & Construction"
+        },
+        {
+          "title": "Nursing & Health"
+        },
+        {
+          "title": "Hospitality & Tourism"
+        },
+        {
+          "title": "Pharmacy"
+        },
+        {
+          "title": "Media & Communication"
+        }
+      ]
+    },
+    "scholarshipsSection": {
+      "title": ["Top Scholarships in usa for", "Indian Students"],
+      "desc": "Unlock financial support for your education journey. Apply for various scholarships and awards!",
+      "scholarships": [
+        {
+          "title": "Fulbright-Nehru Master’s Fellowships"
+        },
+        {
+          "title": "Hubert H. Humphrey Fellowship Program"
+        },
+        {
+          "title": "AAUW International Fellowships (for women)"
+        },
+        {
+          "title": "Stanford Reliance Dhirubhai Fellowships (MBA)"
+        },
+        {
+          "title": "Tata Scholarship at Cornell University"
+        },
+        {
+          "title": "Knight-Hennessy Scholars Program (Stanford)"
+        },
+        {
+          "title": "Yale University Scholarships"
+        },
+        {
+          "title": "University-Specific Scholarships (NYU, ASU, etc.)"
+        },
+        {
+          "title": "Aga Khan Foundation Scholarships"
+        },
+        {
+          "title": "Inlaks Shivdasani Foundation Scholarships"
+        }
+      ]
+    }
   }
 }

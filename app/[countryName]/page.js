@@ -10,6 +10,7 @@ export function generateStaticParams() {
     { countryName: "new-zealand" },
     { countryName: "germany" },
     { countryName: "dubai" },
+    { countryName: "usa" },
   ];
 }
 
@@ -25,6 +26,7 @@ export default async function Page({ params }) {
     australia: "/images/countries/australia/hero-img.webp",
     newZealand: "/images/countries/new-zealand/hero-img.webp",
     germany: "/images/countries/germany/hero-img.webp",
+    usa: "/images/countries/usa/hero-img.webp",
   };
 
   const param = await params;
@@ -63,6 +65,12 @@ export default async function Page({ params }) {
     case "germany":
       data = countriesData.germany;
       heroImg = heroImgPaths.germany;
+      dropdownItems = data.flagSection.dropdownItems;
+      break;
+
+    case "usa":
+      data = countriesData.usa;
+      heroImg = heroImgPaths.usa;
       dropdownItems = data.flagSection.dropdownItems;
       break;
 
